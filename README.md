@@ -57,7 +57,7 @@ Para definir as mensagens padrão indique em seu seletor a(s) mensagem(ns) que d
 ```
 <h5>Mensagens Específicas para um Controle</h5>
 Para definir uma mensagem específica a um campo, utilize o atributo<code>data-msg-*</code> seguido do tipo da validação que você deseja que essa mensagem seja exibida:
-<div id="tipo">
+
 | Descrição da Validação | data-msg-* |
 | ------------- | ------------- |
 | Campo Obrigatório            |required  |
@@ -71,7 +71,7 @@ Para definir uma mensagem específica a um campo, utilize o atributo<code>data-m
 | Senha e Confirmação de Senha |password|
 | Telefone                     |phone|
 | CEP                          |cep|
-</div>
+
 Exemplo:
 ```<input type="text" id="fone" class="required cep" data-msg-required="Preencha esse campo!!!" data-msg-cep="O CEP informado não é valido!!!" />```
 <br/>
@@ -85,7 +85,7 @@ Por padrão, quando alguma inconsistência é encontrada, o plugin adiciona um <
 <br/>
 <code>field</code>: Retorna o objeto seletor jQuery o campo inconsistente.<br/>
 <code>message</code>: Retorna uma string com a Mensagem do span.<br/>
-<code>error</code>: Retorna Tipo de validação inconsistente (os mesmos valores da tabela <a href="#tipo">acima</a>.
+<code>error</code>: Retorna Tipo de validação inconsistente (os mesmos valores da tabela <a href="#L61-73">acima</a>.
 Exemplo:
 ```
  $('form').validate({
