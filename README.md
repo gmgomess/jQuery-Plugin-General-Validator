@@ -85,7 +85,7 @@ Por padrão, quando alguma inconsistência é encontrada, o plugin adiciona um <
 <br/>
 <code>field</code>: Retorna o objeto seletor jQuery o campo inconsistente.<br/>
 <code>message</code>: Retorna uma string com a Mensagem do span.<br/>
-<code>error</code>: Retorna Tipo de validação inconsistente (os mesmos valores da tabela <a href="#L61-73">acima</a>.
+<code>error</code>: Retorna Tipo de validação inconsistente (os mesmos valores da tabela acima: "Mensagens Específicas para um Controle").
 Exemplo:
 ```
  $('form').validate({
