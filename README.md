@@ -1,6 +1,6 @@
 jQuery-Plugin-General-Validator
 ===============================
-By: Guilherme Gomes (gmgomess@gmail.com) e Alvaro Burghi (alvaro.burghi@gmail.com)
+By: Guilherme Gomes (gmgomess@gmail.com) e Alvaro Burghi (alvaro.burghi@gmail.com)<br/><br/>
 Um plugin simples de validação e máscaras. Você pode definir se deseja a implantação de máscaras nos campos, as mensagens padrões e ainda o que deseja ser feito quando os dados forem consistentes ou inconsistentes. Tipos de validação:
 <ul>
 <li>Campos obrigatórios:<code>required</code></li>
