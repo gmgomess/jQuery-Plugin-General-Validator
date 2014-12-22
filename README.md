@@ -14,7 +14,7 @@ Um plugin simples de validação e máscaras. Você pode definir se deseja a imp
 <br/>
 Para validação de tamanho mínimo e máximo, adicione o atributo<code>data-minlength</code> ou<code>data-maxlength</code> 
 <li>Tamanho mínimo - exemplo:<code>data-minlength="5"</code></li>
-<li>Tamanho máximo - exemplo:<code>data-minlength="20"</code></li>
+<li>Tamanho máximo - exemplo:<code>data-maxlength="20"</code></li>
 <br/>
 <li>Validação customizada através de Expressão Regular (regex)</li>
         Para validação customizada com Regex, adicione o atributo<code>data-pattern</code><br/>
